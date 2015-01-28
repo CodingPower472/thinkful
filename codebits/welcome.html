@@ -1,0 +1,19 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.2/paper/bootstrap.min.css">
+	<script>
+	angular.module('name', [ ]);
+	</script>
+	<title>My Angular "Welcome" page</title>
+</head>
+<body ng-app="name">
+<div class="container-fluid">
+<div class="jumbotron">
+<h4>Please enter your name here:<input type="text" ng-model="name" size="width: 48px"></h4>
+<h1>Welcome, <span ng-bind="name"></span></h1>
+</div>
+</div>
+</body>
+</html>

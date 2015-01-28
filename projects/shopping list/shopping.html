@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<title>Shopping list</title>
+	<script>
+	$( document ).ready(function() {
+$('ul').on('click', 'li', function(event){
+console.log('ready')
+$("ul").append("<li>eggs</li>");
+});
+});
+	</script>
+</head>
+<body>
+<ul>
+<input type="text" size="width: 48px">
+</ul>
+</body>
+</html>
